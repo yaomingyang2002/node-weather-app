@@ -1,0 +1,88 @@
+// 20170913144611
+// https://maps.googleapis.com/maps/api/geocode/json?address=8465%20sebastien%20brossard%20quebec%20canada
+
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "8465",
+          "short_name": "8465",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Rue Sébastien",
+          "short_name": "Rue Sébastien",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Brossard",
+          "short_name": "Brossard",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Champlain",
+          "short_name": "Champlain",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Québec",
+          "short_name": "QC",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Canada",
+          "short_name": "CA",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "J4X 1S5",
+          "short_name": "J4X 1S5",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "8465 Rue Sébastien, Brossard, QC J4X 1S5, Canada",
+      "geometry": {
+        "location": {
+          "lat": 45.452329,
+          "lng": -73.4725306
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 45.4536779802915,
+            "lng": -73.47118161970849
+          },
+          "southwest": {
+            "lat": 45.4509800197085,
+            "lng": -73.47387958029151
+          }
+        }
+      },
+      "partial_match": true,
+      "place_id": "ChIJt--3kXcPyUwRVxFfhfrDrHU",
+      "types": [
+        "street_address"
+      ]
+    }
+  ],
+  "status": "OK"
+}
